@@ -1,9 +1,9 @@
 import './App.css'
 import About from './components/About.jsx'
-// import Contact from './components/Contact'
-// import Footer from './components/Footer'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 import FrequentQuestions from './components/FrequentQuestions.jsx'
-// import JoinNewsLetter from './components/JoinNewsLetter'
+import JoinNewsLetter from './components/JoinNewsLetter'
 import Marque from './components/Marque.jsx'
 import NavBar from './components/NavBar.jsx'
 import Portfolio from './components/Portfolio.jsx'
@@ -30,9 +30,9 @@ function App() {
       <Pricing />
       <Testimonial />
       <FrequentQuestions />
-      {/* <Contact /> */}
-      {/* <JoinNewsLetter />
-      <Footer /> */}
+      <Contact />
+      <JoinNewsLetter />
+      <Footer />
     </>
   )
 }
