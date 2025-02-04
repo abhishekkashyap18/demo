@@ -1,5 +1,5 @@
 import React from "react";
-import Sharedlayout from "./Sharedlayout";
+import Sharedlayout from "./Sharedlayout.jsx";
 import { motion } from "motion/react";
 
 
