@@ -11,7 +11,7 @@ import Pricing from './components/Pricing.jsx'
 import Services from './components/Services.jsx'
 import Team from './components/Team.jsx'
 import Testimonial from './components/Testimonial.jsx'
-import HeroSection from './components/heroSection.jsx'
+import HeroSection from './components/HeroSection.jsx'
 
 
 
