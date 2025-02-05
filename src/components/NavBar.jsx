@@ -12,40 +12,43 @@ function NavBar() {
   return (
     <>
       <motion.div 
-      
-      className={`fixed top-0 left-0 z-10 w-full p-4 transition-background duration-200 ease-in-out text-white ${
+      className={`fixed top-0 left-0 z-10 w-full p-2 sm:p-4 transition-background duration-200 ease-in-out text-white ${
         isTransparent ? "bg-[#37517e]/70" : "bg-[#37517e]/100"
       }`}
       initial={{ opacity: 1 }}
       animate={{ opacity: 1 }}>
         <div className="flex justify-between items-center py-2 ">
-          <h1 className="text-3xl font-semibold ml-28">ARSHA</h1>
-          <ul className="flex gap-8 text-center mr-28 p-1">
-            <li className="text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
+          <h1 className="text-2xl sm:text-3xl font-semibold ml-3 sm:ml-28">ARSHA</h1>
+          <ul className="sm:flex sm:gap-8 gap-3 text-center mr-2 lg:mr-28 p-1 hidden ">
+            <li className="text-sm sm:text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
               <a href="#hero">Home</a>
             </li>
-            <li className="text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
+            <li className="text-sm sm:text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
               <a href="#About">About</a>
             </li>
-            <li className="text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
+            <li className="text-sm sm:text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
               <a href="#Services">Services</a>
             </li>
-            <li className="text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
+            <li className="text-sm sm:text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
               <a href="#Portfolio">Portfolio</a>
             </li>
-            <li className="text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
+            <li className="text-sm sm:text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
               <a href="#Team">Team</a>
             </li>
-            <li className="text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
+            <li className="text-sm sm:text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
               <a href="#Pricing">Pricing</a>
             </li>
-            <li className="text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
+            <li className="text-sm sm:text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
               <a href="#Contact">Contact</a>
             </li>
             <li className="">
-              <a href="#hero" className="bg-[#47b2e4] py-2 px-6 border border-[#47b2e4] rounded-full text-base">Get Started</a>
+              <a href="#hero" className="bg-[#47b2e4] py-2 px-2 sm:py-2 sm:px-6 border border-[#47b2e4] rounded-full text-sm sm:text-base">Get Started</a>
             </li>
           </ul>
+
+          <div>
+            
+          </div>
         </div>
       </motion.div>
     </>

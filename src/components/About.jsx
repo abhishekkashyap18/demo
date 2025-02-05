@@ -9,7 +9,7 @@ function About() {
     <>
       <div className="container">
         <div>
-          <div className="p-16 text-center flex flex-col items-center">
+          <div className="sm:p-16 p-6 text-center flex flex-col items-center">
             <motion.h1 
             initial = {{y: 60, opacity: 0}}
             whileInView={{opacity: 1, y: 0}}
@@ -18,14 +18,14 @@ function About() {
             className="text-[#37517e]  font-bold text-3xl border-b-4 border-[#47b2e4] w-fit p-4 mb-14">
               ABOUT US
             </motion.h1>
-            <div className="flex gap-8 p-5 text-base/6 font-normal">
+            <div className="flex flex-col sm:flex-row gap-14 sm:gap-8 p-5 text-base/6 font-normal">
               <motion.div 
               initial = {{y: 60, opacity: 0}}
               whileInView={{opacity: 1, y: 0}}
               transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
               viewport={{once: true}}
-              className="w-1/2">
-                <p className="text-start pb-5 line">
+              className="sm:w-1/2 w-full">
+                <p className="text-start pb-5">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -53,7 +53,7 @@ function About() {
               whileInView={{opacity: 1, y: 0}}
               transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
               viewport={{once: true}}
-              className="w-1/2 text-start">
+              className="w-full sm:w-1/2 text-start">
                 <p>
                   Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
                   aute irure dolor in reprehenderit in voluptate velit esse
@@ -75,8 +75,8 @@ function About() {
             </div>
           </div>
 
-          <div className="bg-[#f5f6f8] flex gap-16 px-20 py-10">
-            <div className="w-3/5">
+          <div className="bg-[#f5f6f8] flex sm:flex-row flex-col-reverse gap-16 px-8 py-10 sm:px-20 sm:py-10">
+            <div className=" w-full sm:w-3/5">
               <motion.h1 
               initial = {{y: 60, opacity: 0}}
               whileInView={{opacity: 1, y: 0}}
@@ -166,21 +166,21 @@ function About() {
             whileInView={{opacity: 1, scale: 1}}
             transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
             viewport={{once: true}}
-            className="w-2/5 flex items-center justify-center">
-              <img className="w-5/6 h-4/5" src="/why-us.png" alt="" />
+            className="sm:w-2/5 w-full flex items-center justify-center">
+              <img className="sm:w-5/6 sm:h-4/5 w-[70%] h-full" src="/why-us.png" alt="" />
             </motion.div>
           </div>
 
-          <div className="flex gap-10 p-16 px-20">
+          <div className="flex sm:flex-row flex-col gap-10 sm:p-16 sm:px-20 px-8 items-center">
             <motion.div 
             initial = {{scale: 0, opacity: 0}}
             whileInView={{opacity: 1, scale: 1}}
             transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
             viewport={{once: true}}
-            className="w-2/4">
-              <img className="w-[90%]" src="/skills.png" alt="" />
+            className="sm:w-2/4 w-full flex flex-col items-center">
+              <img className="w-[70%]" src="/skills.png" alt="" />
             </motion.div>
-            <div className="w-2/4">
+            <div className="sm:w-2/4 w-full py-14 sm:py-0">
               <motion.h1 
               initial = {{y: 60, opacity: 0}}
               whileInView={{opacity: 1, y: 0}}

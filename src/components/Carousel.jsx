@@ -23,7 +23,7 @@ function Carousel() {
               <FaStar />
               <FaStar />
             </div>
-            <p className="w-[50%] text-center">
+            <p className="w-full sm:w-[50%] text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
               alias minima delectus? Numquam pariatur sint consequatur quidem
               voluptates maiores assumenda!

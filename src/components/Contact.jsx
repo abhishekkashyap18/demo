@@ -22,20 +22,20 @@ function Contact() {
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-lg font-normal mb-16 px-28 text-center">
+        className="text-lg font-normal mb-16 p-4 sm:px-28 text-center">
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
           aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
           quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
           fugiat sit in iste officiis commodi quidem hic quas.
         </motion.p>
 
-        <div className="w-full flex justify-center px-24 gap-16">
+        <div className="w-full flex sm:flex-row flex-col justify-center px-8 sm:px-24 gap-16">
           <motion.div 
           initial = {{y: 60, opacity: 0}}
           whileInView={{opacity: 1, y: 0}}
           transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
           viewport={{once: true}}
-          className="bg-white drop-shadow-xl w-2/5 p-8 border-t-4 border-[#47b2e4] rounded-lg">
+          className="bg-white drop-shadow-xl w-full sm:w-2/5 p-8 border-t-4 border-[#47b2e4] rounded-lg">
             <ul className="flex flex-col gap-6">
               <motion.li 
               initial = {{y: 60, opacity: 0}}
@@ -89,7 +89,7 @@ function Contact() {
           whileInView={{opacity: 1, y: 0}}
           transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
           viewport={{once: true}}
-          className="flex flex-col gap-8 w-3/5 bg-white p-8 drop-shadow-xl border-t-4 border-[#47b2e4] rounded-lg">
+          className="flex flex-col gap-8 w-full sm:w-3/5 bg-white p-8 drop-shadow-xl border-t-4 border-[#47b2e4] rounded-lg">
             
                 <ul className="flex w-full gap-5">
                     <motion.li 

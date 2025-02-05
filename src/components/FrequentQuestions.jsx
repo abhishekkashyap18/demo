@@ -19,13 +19,13 @@ function FrequentQuestions() {
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-lg font-normal mb-16 px-28 text-center">
+        className="text-lg font-normal mb-16 p-4 sm:px-28 text-center">
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
           aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
           quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
           fugiat sit in iste officiis commodi quidem hic quas.
         </motion.p>
-        <div className="w-full flex flex-col gap-1 px-44 drop-shadow-lg">
+        <div className="w-full flex flex-col gap-1 px-8 sm:px-44 drop-shadow-lg">
           <motion.div 
           initial = {{y: 60, opacity: 0}}
           whileInView={{opacity: 1, y: 0}}

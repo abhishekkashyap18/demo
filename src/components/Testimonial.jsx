@@ -21,7 +21,7 @@ function Testimonial() {
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-lg font-normal mb-16">
+        className="text-lg font-normal mb-16 text-center">
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit
         </motion.p>

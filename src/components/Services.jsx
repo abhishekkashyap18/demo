@@ -25,7 +25,7 @@ function Services() {
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-lg font-normal">
+        className="text-lg font-normal text-center">
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit
         </motion.p>
@@ -35,7 +35,7 @@ function Services() {
           whileInView={{opacity: 1, y: 0}}
           transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
           viewport={{once: true}}
-          className="flex gap-5 p-16 px-20 justify-center">
+          className="flex sm:flex-row flex-col gap-10 sm:gap-5 p-10 sm:p-16 sm:px-20 justify-center">
             <motion.li 
             initial = {{y:0}}
             whileHover={{y:-12}}

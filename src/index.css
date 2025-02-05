@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body, html {
+  width: 100%; /* Or use Tailwind's equivalent if needed */
+  margin: 0;  /* Important: Remove default margins */
+  padding: 0; /* Important: Remove default padding */
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
