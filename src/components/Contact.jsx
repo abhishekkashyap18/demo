@@ -13,7 +13,7 @@ function Contact() {
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-[#37517e]  font-bold text-3xl border-b-4 border-[#47b2e4] w-fit px-3 pb-5 mb-6">
+        className="text-[#37517e]  font-bold text-2xl sm:text-3xl border-b-4 border-[#47b2e4] w-fit px-3 pb-2 sm:pb-5 mb-6">
           Contact
         </motion.h1>
 

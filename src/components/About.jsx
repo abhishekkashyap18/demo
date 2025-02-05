@@ -9,13 +9,13 @@ function About() {
     <>
       <div className="container">
         <div>
-          <div className="sm:p-16 p-6 text-center flex flex-col items-center">
+          <div className="sm:p-16 p-2 text-center flex flex-col items-center">
             <motion.h1 
             initial = {{y: 60, opacity: 0}}
             whileInView={{opacity: 1, y: 0}}
             transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
             viewport={{once: true}}
-            className="text-[#37517e]  font-bold text-3xl border-b-4 border-[#47b2e4] w-fit p-4 mb-14">
+            className="text-[#37517e]  font-bold text-2xl sm:text-3xl border-b-4 border-[#47b2e4] w-fit p-2 sm:p-4 mb-14">
               ABOUT US
             </motion.h1>
             <div className="flex flex-col sm:flex-row gap-14 sm:gap-8 p-5 text-base/6 font-normal">
@@ -82,7 +82,7 @@ function About() {
               whileInView={{opacity: 1, y: 0}}
               transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
               viewport={{once: true}}
-              className="w-full text-[#37517e] text-4xl py-2">
+              className="w-full text-[#37517e] text-2xl sm:text-4xl py-2">
                 Eum ipsam laborum deleniti <span className="font-bold">velit pariatur architecto aut nihil</span>
               </motion.h1>
 
@@ -104,10 +104,10 @@ function About() {
                 viewport={{once: true}}
                 className="collapse collapse-arrow bg-white w-full rounded-none drop-shadow-lg">
                   <input type="radio" name="my-accordion-2" defaultChecked />
-                  <div className="collapse-title text-lg font-normal text-[#47b2e4]">
+                  <div className="collapse-title text-base sm:text-lg font-normal text-[#47b2e4]">
                     01 Non consectetur a erat nam at lectus urna duis?
                   </div>
-                  <div className="collapse-content text-base">
+                  <div className="collapse-content text-sm sm:text-base">
                     <p>
                       Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
                       id volutpat lacus laoreet non curabitur gravida. Venenatis
@@ -123,11 +123,11 @@ function About() {
                 viewport={{once: true}}
                 className="collapse collapse-arrow bg-white w-full rounded-none drop-shadow-lg">
                   <input type="radio" name="my-accordion-2" />
-                  <div className="collapse-title text-lg font-normal text-[#47b2e4]">
+                  <div className="collapse-title text-base sm:text-lg font-normal text-[#47b2e4]">
                     02 Feugiat scelerisque varius morbi enim nunc faucibus a
                     pellentesque?
                   </div>
-                  <div className="collapse-content text-base">
+                  <div className="collapse-content text-sm sm:text-base">
                     <p>
                       Dolor sit amet consectetur adipiscing elit pellentesque
                       habitant morbi. Id interdum velit laoreet id donec
@@ -145,10 +145,10 @@ function About() {
                 viewport={{once: true}}
                 className="collapse collapse-arrow bg-white w-full rounded-none drop-shadow-lg">
                   <input type="radio" name="my-accordion-2" />
-                  <div className="collapse-title text-lg font-normal text-[#47b2e4]">
+                  <div className="collapse-title text-base sm:text-lg font-normal text-[#47b2e4]">
                     03 Dolor sit amet consectetur adipiscing elit pellentesque?
                   </div>
-                  <div className="collapse-content text-base">
+                  <div className="collapse-content text-sm sm:text-base">
                     <p>
                       Eleifend mi in nulla posuere sollicitudin aliquam ultrices
                       sagittis orci. Faucibus pulvinar elementum integer enim.
@@ -186,7 +186,7 @@ function About() {
               whileInView={{opacity: 1, y: 0}}
               transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
               viewport={{once: true}}
-              className="text-[#37517e] text-3xl font-bold pb-2">Voluptatem dignissimos provident quasi corporis voluptas</motion.h1>
+              className="text-[#37517e] text-2xl sm:text-3xl font-bold pb-2">Voluptatem dignissimos provident quasi corporis voluptas</motion.h1>
               <motion.p 
               initial = {{y: 60, opacity: 0}}
               whileInView={{opacity: 1, y: 0}}

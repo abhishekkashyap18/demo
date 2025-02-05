@@ -1,5 +1,6 @@
 import {motion, useScroll} from "framer-motion";
 import React, { useState } from "react";
+import { IoMenu } from "react-icons/io5";
 
 function NavBar() {
 
@@ -46,8 +47,8 @@ function NavBar() {
             </li>
           </ul>
 
-          <div>
-            
+          <div className="sm:hidden flex mr-3 cursor-pointer">
+            <IoMenu className="w-7 h-7"/>
           </div>
         </div>
       </motion.div>

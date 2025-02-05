@@ -10,13 +10,13 @@ function Services() {
   return (
     <>
     <div>
-      <div className="flex flex-col items-center bg-[#f5f6f8]">
+      <div className="flex flex-col items-center bg-[#f5f6f8] p-2 sm:p-0">
         <motion.h1 
         initial = {{y: 60, opacity: 0}}
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-[#37517e]  font-bold text-3xl border-b-4 border-[#47b2e4] w-fit p-4 mb-14">
+        className="text-[#37517e]  font-bold text-2xl sm:text-3xl border-b-4 border-[#47b2e4] w-fit p-2 sm:p-4 mb-14">
           Services
         </motion.h1>
 
@@ -35,7 +35,7 @@ function Services() {
           whileInView={{opacity: 1, y: 0}}
           transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
           viewport={{once: true}}
-          className="flex sm:flex-row flex-col gap-10 sm:gap-5 p-10 sm:p-16 sm:px-20 justify-center">
+          className="flex sm:flex-row flex-col gap-10 sm:gap-5 p-8 sm:p-16 sm:px-20 justify-center">
             <motion.li 
             initial = {{y:0}}
             whileHover={{y:-12}}
