@@ -30,21 +30,21 @@ function About() {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <ul>
-                  <li className="flex gap-1 items-center py-1">
-                    <RiCheckboxCircleLine className="text-blue-400" />
-                    <p>
+                  <li className="flex sm:gap-1 sm:items-center items-start py-1">
+                    <RiCheckboxCircleLine className="text-blue-400 w-5 h-5 sm:w-auto sm:h-auto" />
+                    <p className="text-start px-1 sm:px-0">
                       Ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                   </li>
-                  <li className="flex gap-1 items-center py-1">
-                    <RiCheckboxCircleLine className="text-blue-400" />
-                    <p>
+                  <li className="flex sm:gap-1 sm:items-center items-start py-1">
+                    <RiCheckboxCircleLine className="text-blue-400 w-5 h-5 sm:w-auto sm:h-auto" />
+                    <p className="text-start px-1 sm:px-0">
                       Duis aute irure dolor in reprehenderit in voluptate velit.
                     </p>
                   </li>
-                  <li className="flex gap-1 items-center py-1">
-                    <RiCheckboxCircleLine className="text-blue-400" />
-                    <p>Ullamco laboris nisi ut aliquip ex ea commodo</p>
+                  <li className="flex sm:gap-1 sm:items-center items-start py-1">
+                    <RiCheckboxCircleLine className="text-blue-400 w-5 h-5 sm:w-auto sm:h-auto" />
+                    <p className="text-start px-1 sm:px-0">Ullamco laboris nisi ut aliquip ex ea commodo</p>
                   </li>
                 </ul>
               </motion.div>
