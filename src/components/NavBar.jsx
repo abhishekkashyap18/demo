@@ -19,8 +19,8 @@ function NavBar() {
       initial={{ opacity: 1 }}
       animate={{ opacity: 1 }}>
         <div className="flex justify-between items-center py-2 ">
-          <h1 className="text-2xl lg:text-3xl font-semibold ml-3 lg:ml-28">ARSHA</h1>
-          <ul className="lg:flex lg:gap-8 gap-3 text-center mr-2 lg:mr-28 p-1 hidden ">
+          <h1 className="text-2xl lg:text-3xl font-semibold ml-3 lg:ml-8 xl:ml-28">ARSHA</h1>
+          <ul className="lg:flex xl:gap-8 lg:gap-5 gap-3 text-center mr-2 lg:mr-8 xl:mr-28 p-1 hidden ">
             <li className="text-sm lg:text-lg transition delay-50 duration-300 ease-in-out hover:text-[#47b2e4]">
               <a href="#hero">Home</a>
             </li>

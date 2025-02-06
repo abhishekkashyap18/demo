@@ -15,7 +15,7 @@ function Footer() {
       whileInView={{opacity: 1, y: 0}}
       transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
       viewport={{once: true}}
-      className="grid grid-cols-1 sm:grid-cols-4 gap-8 sm:gap-0 bg-white p-8 sm:p-24 w-full">
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0 bg-white p-8 lg:p-10 xl:p-24 w-full">
         <div className="flex flex-col gap-3">
           <h1 className="text-[#37517E] font-bold text-2xl">ARSHA</h1>
           <h3 className="text-gray-500 w-44">A108 Adam Street New York, NY 535022</h3>

@@ -6,13 +6,13 @@ import {motion} from "motion/react";
 function Pricing() {
   return (
     <>
-      <div className="flex flex-col items-center bg-[#f5f6f8] pt-10 sm:h-[110vh] h-full p-2 sm:p-0">
+      <div className="flex flex-col items-center bg-[#f5f6f8] pt-10 h-full p-2 lg:p-3">
         <motion.h1 
         initial = {{y: 60, opacity: 0}}
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-[#37517e]  font-bold text-2xl sm:text-3xl border-b-4 border-[#47b2e4] w-fit p-2 sm:p-4 mb-6">
+        className="text-[#37517e]  font-bold text-2xl lg:text-3xl border-b-4 border-[#47b2e4] w-fit p-2 lg:p-4 mb-6">
           Pricing
         </motion.h1>
 
@@ -25,8 +25,8 @@ function Pricing() {
           Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
           consectetur velit
         </motion.p>
-        <div className="w-full px-10 sm:px-0 sm:w-fit">
-          <ul className="flex sm:flex-row flex-col gap-10">
+        <div className="w-full px-10 lg:px-0 lg:w-fit">
+          <ul className="flex lg:flex-row flex-col gap-10 sm:items-center sm:p-5">
             <motion.li 
             initial = {{scale:0, opacity: 0}}
             whileInView={{opacity: 1, scale: 1}}

@@ -13,7 +13,7 @@ function Sharedlayout() {
     whileInView={{opacity: 1, y: 0}}
     transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
     viewport={{once: true}}
-    className="w-[100%] sm:h-[100vh] h-full rounded-lg bg-white shadow-lg overflow-hidden flex flex-col">
+    className="w-[100%]  h-full rounded-lg bg-white shadow-lg overflow-hidden flex flex-col">
       <nav className="bg-[#fdfdfd] p-2 pb-0 rounded-t-lg border-b border-[#eeeeee] h-11 flex items-center">
         <ul className="list-none p-0 m-0 font-medium text-sm flex w-full">
         {tabs.map((item) => (
@@ -44,7 +44,7 @@ function Sharedlayout() {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -10, opacity: 0 }}
               transition={{ duration: 0.2 }}
-              className="grid grid-cols-1 sm:grid-cols-3 gap-20 w-full h-full p-10 "
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 w-full h-full p-10 "
             >
               {selectedTab.icons.map((icon, index) => ( 
                 <img

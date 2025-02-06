@@ -13,7 +13,7 @@ function Contact() {
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-[#37517e]  font-bold text-2xl sm:text-3xl border-b-4 border-[#47b2e4] w-fit px-3 pb-2 sm:pb-5 mb-6">
+        className="text-[#37517e]  font-bold text-2xl lg:text-3xl border-b-4 border-[#47b2e4] w-fit px-3 pb-2 lg:pb-5 mb-6">
           Contact
         </motion.h1>
 
@@ -22,20 +22,20 @@ function Contact() {
         whileInView={{opacity: 1, y: 0}}
         transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
         viewport={{once: true}}
-        className="text-lg font-normal mb-16 p-4 sm:px-28 text-center">
+        className="text-lg font-normal mb-16 p-4 lg:px-28 text-center">
           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
           aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
           quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
           fugiat sit in iste officiis commodi quidem hic quas.
         </motion.p>
 
-        <div className="w-full flex sm:flex-row flex-col justify-center px-8 sm:px-24 gap-16">
+        <div className="w-full flex sm:flex-row flex-col justify-center px-8 lg:px-24 gap-16 sm:gap-6 lg:gap-16 sm:px-6">
           <motion.div 
           initial = {{y: 60, opacity: 0}}
           whileInView={{opacity: 1, y: 0}}
           transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
           viewport={{once: true}}
-          className="bg-white drop-shadow-xl w-full sm:w-2/5 p-8 border-t-4 border-[#47b2e4] rounded-lg">
+          className="bg-white drop-shadow-xl w-full sm:w-1/2 lg:w-2/5 p-8 border-t-4 border-[#47b2e4] rounded-lg sm:p-2 lg:p-8">
             <ul className="flex flex-col gap-6">
               <motion.li 
               initial = {{y: 60, opacity: 0}}
@@ -47,7 +47,7 @@ function Contact() {
                 
                 <div>
                   <h1>Adress</h1>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>A108 Adam Street, New York</p>
                 </div>
               </motion.li>
               <motion.li 
@@ -89,7 +89,7 @@ function Contact() {
           whileInView={{opacity: 1, y: 0}}
           transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
           viewport={{once: true}}
-          className="flex flex-col gap-8 w-full sm:w-3/5 bg-white p-8 drop-shadow-xl border-t-4 border-[#47b2e4] rounded-lg">
+          className="flex flex-col gap-8 w-full sm:w-1/2 lg:w-3/5 bg-white p-8 drop-shadow-xl border-t-4 border-[#47b2e4] rounded-lg">
             
                 <ul className="flex w-full gap-5">
                     <motion.li 
