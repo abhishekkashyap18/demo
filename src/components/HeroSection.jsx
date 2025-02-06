@@ -63,7 +63,7 @@ function HeroSection() {
           <motion.div 
           initial = {{scale:1.2, opacity:0}}
           animate = {controls}
-          className="lg:h-5/6 lg:mr-10 h-3/6 lg:w-full w-4/5 mt-20 lg:mt-0">
+          className="lg:h-5/6 md:h-1/4 md:w-[50%] lg:mr-10 h-3/6 lg:w-full w-4/5 mt-20 lg:mt-0">
             <img className="h-full"  src="/hero-img.png" alt="" />
           </motion.div>
         </div>

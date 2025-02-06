@@ -167,7 +167,7 @@ function About() {
             transition = {{delay:0.5, duration: 0.9, ease: "easeInOut"}}
             viewport={{once: true}}
             className="lg:w-2/5 w-full flex items-center justify-center">
-              <img className="xl:w-5/6 xl:h-4/5 lg:w-full lg:h-auto w-[70%] h-full" src="/why-us.png" alt="" />
+              <img className="xl:w-5/6 xl:h-4/5 lg:w-full lg:h-auto w-[70%] h-full md:w-[70%]" src="/why-us.png" alt="" />
             </motion.div>
           </div>
 
