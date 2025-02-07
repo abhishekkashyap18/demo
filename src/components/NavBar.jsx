@@ -1,6 +1,7 @@
 import {motion, useScroll} from "framer-motion";
 import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
+import ResponsiveMenu from "./ResponsiveMenu";
 
 function NavBar() {
 
@@ -8,6 +9,8 @@ function NavBar() {
     onUpdate: (latest) => setTransparent(latest.y <= 100), // Update transparency on scroll
   });
   const [isTransparent, setTransparent] = useState(true);
+
+  const [open, setOpen] = useState(false);
 
 
   return (
@@ -47,11 +50,15 @@ function NavBar() {
             </li>
           </ul>
 
-          <div className="lg:hidden flex mr-3 cursor-pointer">
+          <div className="lg:hidden flex mr-3 cursor-pointer"
+          onClick={() => setOpen(!open)}
+          >
             <IoMenu className="w-7 h-7"/>
           </div>
         </div>
       </motion.div>
+
+      <ResponsiveMenu open = {open}/>
     </>
   );
 }
